@@ -4,8 +4,4 @@ tar zxf ruby-2.0.0-p0.tar.gz
 cd ruby-2.0.0-p0
 ./configure --prefix=$HOME/bin/
 make -j129
-make
-
-
-
-
+make install
